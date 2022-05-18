@@ -1,0 +1,597 @@
+.topside-header{
+    border: none;
+    padding: 80px;
+    margin: -8px;
+    background-image: url("https://jerryharrisremodeling.com/wp-content/uploads/2018/12/Wood-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px 300px;
+    margin: left;
+    background-color: rgb(255, 255, 255);
+}
+.sites-name{
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    width: 300px;
+    text-shadow: 5px 5px black;
+    color: rgb(179, 179, 179);
+    background-color: none;
+    text-align: center;
+}
+.sites-name:hover{
+    color: gray;
+}
+.login-button{
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    position: absolute;
+    top: 65px;
+    padding: 20px;
+    font-family: "BYekan";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+}
+.login-button:hover{
+    background-color: gray;
+    text-shadow: 1px 1px white;
+}
+.search{
+    padding: 175px;
+}
+.search-box{
+    font-family: "BYekan";
+    height: 40px;
+    width: 630px;
+    border-radius: 15px;
+}
+.search-box:hover{
+    background-color: rgb(177, 177, 177);
+}
+.search-icon{
+    position: absolute;
+    top: 93px;
+    left: 1030px;
+}
+.phone-number{
+    color: black;
+    background-color: rgb(175, 175, 175);
+    position: absolute;
+    margin-top: -125px;
+    margin-left: -78px;
+}
+.topside-bar1{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 1320px;
+    width: 120px;
+    height: 50px;
+    z-index: 100;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(255, 199, 126);
+}
+.books-type1{
+    position: absolute;
+    color: rgb(97, 97, 97);
+    left: 15px;
+    top: 13px;
+}
+.books-type1:hover{
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 163, 43);
+    border-radius: 10px;
+}
+.books-type1-1{
+    display: none;
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 1100px;
+    background-color: rgb(255, 199, 126);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.books-type1-1 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.books-type1-1 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+}
+
+.topside-bar1:hover .books-type1-1{
+    display: block;
+    right: 10px;
+    top: 50px;
+}
+.topside-bar2{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 1200px;
+    margin-top: -50px;
+    width: 120px;
+    height: 50px;
+    z-index: 100;
+    border-radius: 0px;
+    background-color: rgb(255, 199, 126);
+}
+.books-type2{
+    position: absolute;
+    color: rgb(97, 97, 97);
+    left: 15px;
+    top: 13px;
+}
+.books-type2:hover{
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 163, 43);
+    border-radius: 10px;
+}
+.books-type2-1{
+    display: none;
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 1100px;
+    margin-right: -120px;
+    background-color: rgb(255, 199, 126);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.books-type2-1 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.books-type2-1 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+}
+
+.topside-bar2:hover .books-type2-1{
+    display: block;
+    right: 10px;
+    top: 50px;
+}
+.topside-bar3{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 1080px;
+    margin-top: -50px;
+    width: 120px;
+    height: 50px;
+    z-index: 100;
+    background-color: rgb(255, 199, 126);
+}
+.books-type3{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    left: 15px;
+    top: 13px;
+}
+.books-type3:hover{
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 163, 43);
+    border-radius: 10px;
+}
+.books-type3-1{
+    display: none;
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 1100px;
+    margin-right: -240px;
+    background-color: rgb(255, 199, 126);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.books-type3-1 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.books-type3-1 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+}
+
+.topside-bar3:hover .books-type3-1{
+    display: block;
+    right: 10px;
+    top: 50px;
+}
+.topside-bar4{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 960px;
+    margin-top: -50px;
+    width: 120px;
+    height: 50px;
+    z-index: 100;
+    background-color: rgb(255, 199, 126);
+}
+.books-type4{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    left: 15px;
+    top: 13px;
+}
+.books-type4:hover{
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 163, 43);
+    border-radius: 10px;
+}
+.books-type4-1{
+    display: none;
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 1100px;
+    margin-right: -360px;
+    background-color: rgb(255, 199, 126);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.books-type4-1 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.books-type4-1 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+}
+
+.topside-bar4:hover .books-type4-1{
+    display: block;
+    right: 10px;
+    top: 50px;
+}
+.topside-bar5{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 840px;
+    margin-top: -50px;
+    width: 120px;
+    height: 50px;
+    z-index: 100;
+    background-color: rgb(255, 199, 126);
+}
+.books-type5{
+    position: absolute;
+    color: rgb(97, 97, 97);
+    left: 15px;
+    top: 13px;
+}
+.books-type5:hover{
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 163, 43);
+    border-radius: 10px;
+}
+.books-type5-1{
+    display: none;
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 1100px;
+    margin-right: -480px;
+    background-color: rgb(255, 199, 126);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.books-type5-1 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.books-type5-1 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+}
+
+.topside-bar5:hover .books-type5-1{
+    display: block;
+    right: 10px;
+    top: 50px;
+}
+.topside-bar-extra{
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: 160px;
+    margin-top: -50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 700px;
+    height: 50px;
+    background-color: rgb(255, 199, 126);
+}
+/* .adabiyat2{
+    display: none;
+    background-color: rgb(255, 199, 126);
+}
+.topside-bar1:hover, .books-type1-1:hover, .adabiyat:hover, .adabiyat2{
+    display: block;
+}
+.adabiyat2 a{
+    color: rgb(113, 113, 113);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.adabiyat2 a:hover{
+    background-color: rgb(255, 163, 43);
+    color: black;
+    border-radius: 15px;
+} */
+
+#special-offer-box div{
+    position: absolute;
+    font-size: 14px;
+    background-color: rgb(233, 201, 133);
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+}
+div#myBox{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(233, 201, 133);
+    z-index: 1;
+    animation: box 8s infinite linear;
+}
+@keyframes box{
+    100% {z-index: 2;}
+}
+img.offer-images{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 300px;
+    height: 300px;
+}
+img.special-offer-announcment{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 405px;
+    z-index: 3;
+}
+.special-offer-timebar{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 425px;
+    width: 270px;
+    height: 7px;
+    border: 0px;
+    border-radius: 5px;
+    z-index: 3;
+    background-color: rgb(224, 127, 0);
+    animation: timebar 4s infinite linear;
+}
+@keyframes timebar{
+    from {width: 0%; background-color: rgb(224, 127, 0);}
+    to {width: 16%;background-color: rgb(100, 57, 0);}
+}
+#showcase-box section{
+    position: absolute;
+    background-color: lightblue;
+    border: none;
+    width: 1100px;
+    height: 370px;
+}
+section#myBox2{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 450px;
+    background-color: lightblue;
+    z-index: 1;
+    animation: box2 8s infinite linear;
+}
+@keyframes box2{
+    0% {z-index: 4;}
+    25% {z-index: 1;}
+    50% {z-index: 1;}
+    75% {z-index: 1;}
+    100% {z-index: 4;}
+}
+section#mybox3{
+    margin-top: 60px;
+    margin-left: 450px;
+    z-index:1;
+    animation: box3 8s infinite linear;
+}
+@keyframes box3{
+    0% {z-index: 1;}
+    25% {z-index: 4;}
+    50% {z-index: 1;}
+    75% {z-index: 1;}
+    100% {z-index: 1;}
+}
+section#mybox4{
+    margin-top: 60px;
+    margin-left: 450px;
+    z-index:2;
+    animation: box4 8s infinite linear;
+}
+@keyframes box4{
+    0% {z-index: 1;}
+    25% {z-index: 1;}
+    50% {z-index: 4;}
+    75% {z-index: 1;}
+    100% {z-index: 1;}
+}
+section#mybox5{
+    margin-top: 60px;
+    margin-left: 450px;
+    z-index:3;
+    animation: box5 8s infinite linear;
+}
+@keyframes box5{
+    0% {z-index: 1;}
+    25% {z-index: 1;}
+    50% {z-index: 1;}
+    75% {z-index: 4;}
+    100% {z-index: 1;}
+}
+.showcase-images{
+    width: 100%;
+    height: 100%;
+}
+.browse-books{
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 1400px;
+    height: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 204, 143);
+}
+.book-category1{
+    margin-left: 20px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category1:hover{
+    background-color: bisque;
+}
+img.browse-books-images{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 100px;
+    height: 150px;
+}
+.book-category2{
+    margin-left: 220px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category2:hover{
+    background-color: bisque;
+}
+.book-category3{
+    margin-left: 420px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category3:hover{
+    background-color: bisque;
+}
+.book-category4{
+    margin-left: 620px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category4:hover{
+    background-color: bisque;
+}
+.book-category5{
+    margin-left: 820px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category5:hover{
+    background-color: bisque;
+}
+.book-category6{
+    margin-left: 1020px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category6:hover{
+    background-color: bisque;
+}
+.book-category7{
+    margin-left: 1220px;
+    margin-top: -200px;
+    width: 143px;
+    height: 200px;
+    text-align: center;
+}
+.book-category7:hover{
+    background-color: bisque;
+}
+footer{
+    background-color: rgb(255, 163, 43);
+    margin-top: 50px;
+    padding: 70px;
+    margin-left: -10px;
+    width: 92.7%;
+    height: 20%;
+}
+.whatsapp-style{
+    position: absolute;
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+    color: rgb(72, 72, 72);
+}
+.whatsapp-style:hover{
+    color: black;
+}
+.footer-text{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -10px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.footer-text2{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -20px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+.footer-email{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 25px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}

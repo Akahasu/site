@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="na">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="font-style.css">
+<link rel="alternate" href="login-page.html">
+<link rel="alternate" href="invalid-page.html">
+
+<head></head>
+
+<body>
+    <div class="topside">
+        <div class="topside-header">
+            <div class="sites-name" onclick="redirect()">کتابخانه جوانمردی</div>
+            <button href="#" onclick="loginpage()" id="welcome" class="login-button">ورود / ثبت نام<ion-icon name="person-circle-outline"></ion-icon></button>
+            <label class="search"></label>
+            <input type="text" class="search-box" size="85" value="...کتاب خود را جستجو کنید" autofocus>
+            <ion-icon name="search-outline" class="search-icon"></ion-icon>
+            <div class="phone-number">09911492070 :شماره تلفن</div>
+        </div>
+
+        <div class="topside-bar1">
+            <h1></h1>
+            <div class="books-type1"><ion-icon name="chevron-down-outline"></ion-icon>کتاب عمومی</div>
+            <div class="books-type1-1">
+                <a href="#" class="adabiyat"><ion-icon name="chevron-down-outline"></ion-icon>ادبیات</a>
+                    <!-- <div class="adabiyat2">
+                        <img src="https://www.gajmarket.com/Media/Thumbs/0533/0533947-quality90-maxwidth300.jpg">
+                        <a href="#">زندگینامه</a>
+                        <a href="#">داستان و رمان</a>
+                        <a href="#">شعر</a>
+                        <a href="#">فرهنگ و دائره المعارف</a>
+                        <a href="#">نقد ادبی</a>
+                        <a href="#">مجله</a>
+                    </div> -->
+                <a href="#" class="olom-ensani"><ion-icon name="chevron-down-outline"></ion-icon>علوم انسانی</a>
+                    <!-- <section class="olom-ensani2">
+                        <img src="https://www.gajmarket.com/Media/Thumbs/0533/0533949-quality90-maxwidth300.jpg">
+                        <a href="#">تاریخ</a>
+                        <a href="#">نجوم و جغرافیا</a>
+                        <a href="#">سیاسی و اجتماعی</a>
+                        <a href="#">مدیریت و اقتصادی</a>
+                        <a href="#">فلسفه و عرفان</a>
+                    </section> -->
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>هنر</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>مذهبی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>پزشکی و روانشناسی</a>
+            </div>
+        </div>
+        <div class="topside-bar2">
+            <div class="books-type2"><ion-icon name="chevron-down-outline"></ion-icon>کتاب درسی</div>
+            <div class="books-type2-1">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>کنکور</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>دوازدهم</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>یازدهم</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>دهم</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>متوسطه اول</a>
+            </div>
+        </div>
+        <div class="topside-bar3">
+            <div class="books-type3"><ion-icon name="chevron-down-outline"></ion-icon>کودک و نوجوان</div>
+            <div class="books-type3-1">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>شعر</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>داستان</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>آموزش</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>واژه نامه</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>ادبیات</a>
+            </div>
+        </div>
+        <div class="topside-bar4">
+            <div class="books-type4"><ion-icon name="chevron-down-outline"></ion-icon>کتاب دانشگاهی</div>
+            <div class="books-type4-1">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>فنی مهندسی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>علوم پزشکی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>علوم پابه</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>علوم انسانی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>هنر</a>
+            </div>
+        </div>
+        <div class="topside-bar5">
+            <div class="books-type5"><ion-icon name="chevron-down-outline"></ion-icon>زبان خارجی</div>
+            <div class="books-type5-1">
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>آموزشی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>آزمون های بین المللی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>مهارت افزایی</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>داستان</a>
+                <a href="#"><ion-icon name="chevron-down-outline"></ion-icon>واژه نامه</a>
+            </div>
+        </div>
+        <div class="topside-bar-extra"></div>
+    </div>
+
+    <div id="special-offer-box">
+        <div id="myBox" onclick="invalidpage()"><img class="offer-images" src="https://www.fadakbook.ir/media/catalog/product/lg_d7f00_86080.jpg"><p style="text-align:right; margin-right:20px;">   مرجع کامل برنامه نویسی پایتون (براساس پروژه های واقعی) اثر اریک متس ترجمه مهدی مرسلی</p></div>
+        <div style="margin-top:50px;margin-left:50px;z-index:1;"><img class="offer-images" src="https://narenjibook.com/wp-content/uploads/2018/09/jadval-tanavobi-A3-A5.jpg"><p style="text-align:right; margin-right:20px;">پوستر جدول تناوبی مندلیف انتشارات گاج</p></div>
+        <img class="special-offer-announcment" src="https://coolerbane.ir/wp-content/uploads/2018/02/Untitled-1.png">
+    </div>
+    <div class="special-offer-timebar"></div>
+
+    <section id="showcase-box" onclick="invalidpage()">
+        <section id="myBox2"><img class="showcase-images" src="https://www.gajmarket.com/api/v1/picture/641959?mimeType=image/webp&size=1920"></section>
+        <section id="mybox3"><img class="showcase-images" src="https://www.gajmarket.com/api/v1/picture/641864?mimeType=image/webp&size=1920"></section>
+        <section id="mybox4"><img class="showcase-images" src="https://www.gajmarket.com/api/v1/picture/642034?mimeType=image/webp&size=1920"></section>
+        <section id="mybox5"><img class="showcase-images" src="https://www.gajmarket.com/api/v1/picture/640798?mimeType=image/webp&size=1920"></section>
+    </section>
+
+    <div class="browse-books">
+        <div class="book-category1" onclick="invalidpage()"><img class="browse-books-images" src="https://motamem.org/wp-content/uploads/2018/01/itsok.jpg">کتاب روانشناسی</div>
+        <div class="book-category2" onclick="invalidpage()"><img class="browse-books-images" src="https://img.ketabrah.ir/img/l/3969477871481776.jpg">کتاب زبان</div>
+        <div class="book-category3" onclick="invalidpage()"><img class="browse-books-images" src="https://fidibo.com/images/books/4339_22364_normal.jpg">کتاب بزرگسال</div>
+        <div class="book-category4" onclick="invalidpage()"><img class="browse-books-images" src="https://markaketab.com/wp-content/uploads/2020/07/مبانی-فیزیک-ج-1-143x195.jpg?v=1595859530">کتاب های دانشگاهی</div>
+        <div class="book-category5" onclick="invalidpage()"><img class="browse-books-images" src="https://img.taaghche.com/frontCover/12405.jpg">کتاب داستان</div>
+        <div class="book-category6" onclick="invalidpage()"><img class="browse-books-images" src="http://ketabesabz.com/img/l/6274947936222136.jpg">کتاب آشپزی</div>
+        <div class="book-category7" onclick="invalidpage()"><img class="browse-books-images" src="https://www.talab.org/wp-content/uploads/2019/09/808261124-talab-org.gif">کتاب شعر</div>
+    </div>
+
+    <footer>
+        <ion-icon name="logo-whatsapp" class="whatsapp-style" onclick="whatsappfunction()"></ion-icon>
+        <p class="footer-text">ما را در شبکه های مجازی دنبال کنید</p>
+        <p class="footer-text2"> طراحی شده توسط امیررضا جوانمردی</br>شماره دانشجویی: 97112594</br></p>
+        <p class="footer-email" onclick="emailfunction()"><a href="mailto:amirrezajavanmardi@yahoo.com">amirrezajavanmardi@yahoo.com</a></p>
+    </footer>
+
+    <script>
+        function loginpage() {
+            var myWindow = window.open("login-page.html", "", "width=370,height=300");
+            myWindow.opener.document.getElementById("welcome").innerHTML = "کاربر گرامی خوش آمدید";
+        }
+        function redirect() {
+            window.open("index.html")
+        }
+        function invalidpage() {
+            window.open("invalid-page.html");
+        }
+        function whatsappfunction() {
+            window.open("https://wa.me/989911492070")
+        }
+        function emailfunction() {
+            window.open("https://login.yahoo.com/?.src=ym&lang=&done=https%3A%2F%2Fcompose.mail.yahoo.com%2F%3Fto%3Damirrezajavanmardi%2540yahoo.com")
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+
+
+
+</html>

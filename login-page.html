@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<style>
+    body{
+        background-color: rgb(216, 216, 216);
+    }
+    .login-information{
+        border: 3px black;
+        border-radius: 15px;
+        width: 350px;
+        height: 30px;
+        background-color: bisque;
+    }
+    .login-information:hover{
+        background-color: coral;
+    }
+    .login-confirm{
+        margin-left: 130px;
+        margin-top: 50px;
+        width: 90px;
+        height: 30px;
+        background-color: bisque;
+    }
+    .login-confirm:hover{
+        background-color: coral;
+    }
+</style>
+
+<body>
+    <div>
+        <br>
+        <a>نام کاربری</a>
+        <input class="login-information" value="نام کاربری خود را وارد کنید" autofocus>
+        <br>
+        <br>
+        <a>رمز عبور</a>
+        <input class="login-information" value="رمز عبور خود را وارد کنید">
+        <br>
+        <button class="login-confirm" onclick="welcomemessage()" value="ورود">ورود</button>
+    </div>
+</body>
+
+<script>
+    function welcomemessage() {
+        var myWindow = window.open("", "_self");
+        myWindow.document.write("<p>ورود موفق آمیز بود</p>");
+        }
+</script>
